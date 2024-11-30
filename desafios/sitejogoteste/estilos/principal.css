@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Funnel+Display:wght@300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+:root {
+    --cor0: #002C53;
+    --cor1: #1344f7;
+    --cor2: #2E18F2;
+    --cor3: #18D1F2;
+    --cor4: #7618F2;
+    --cor5: #44579D;
+    --cor6: #1847F2;
+    --cor7: #0B1419;
+    --cordaletra: #F1F3F4;
+    --fonte-letra: 'Poppins', 'sans-serif';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+
+body {
+    background-color: #08227e;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-family: var(--fonte-letra);
+    font-weight: medium;
+    max-width: 700px;
+    text-align: justify;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.11);;
+    
+}
+
+strong {
+    color: #1042f7;
+    
+}
+
+#destaque {
+    font-family: var(--fonte-letra);
+    color: white;
+    font-weight: medium;
+    font-size: 30px;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.253);;
+    margin: 10px 30px 90px 170px;
+    padding-top: 30px;
+    text-align: left;
+
+
+}
+
+li {
+    color: rgb(0, 0, 0);
+    font-family: var(--fonte-letra);
+    font-weight: medium;
+    text-align: justify;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.11);;
+    line-height: 2em;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+nav{
+background-color:var(--cor0);
+padding: 20px;
+box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.247);
+
+}
+
+
+nav > a{
+    color: var(--cor1);
+    font-family: var(--fonte-letra);
+    text-decoration: none;
+    margin-right: 80px;
+    padding: 4px;
+    font-weight:bold;
+    border-radius: 10px;
+    transition-duration: 1s;
+
+}
+nav > a:hover{
+    background-color: var(--cor1);
+    color: var(--cor0);
+    padding: 7px;
+}
+
+
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > h1 {
+    font-family: var(--fonte-letra);
+    font-weight: normal;
+}
+
+main > p {
+    font-family: var(--fonte-letra);
+}
+
+
